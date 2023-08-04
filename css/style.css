@@ -1,0 +1,180 @@
+.background-index{
+    background-image: url(../assets/background-index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-productos{
+    background-image: url(../assets/background-productos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.background-contacto{
+    background-image: url(../assets/backgroung-contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-nosotros{
+    background-image: url(../assets/background-nosotros.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+    color: #392317;
+}
+
+body header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size:  20px;;
+    font-weight: 100;
+}
+.navbar-productos a{
+    color: #e3dac8 ;
+}
+body header nav ul a{
+    text-decoration: none;
+    color: #392317 ;
+}
+
+body header nav ul a li {
+    position: relative; 
+    transition: 0.5s; 
+    cursor: default;
+}
+.navbar-productos a li::after {
+background-color: #e3dac8;
+}
+
+body header nav ul a li::after {
+    content: ""; 
+    position: absolute; 
+    bottom: -3px; 
+    left: 0; 
+    width: 0; 
+    height: 1px; 
+    background-color: #392317 ;
+    transition: 0.5s; 
+}
+
+body header nav ul a li:hover::after {
+    width: 100%; 
+}
+
+body main div{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+body main div a{
+    text-decoration: none;
+}
+
+body main div button{
+    padding: 10px 100px 10px 100px ;
+    background-color: transparent;
+    color:#392317;
+    border: 2px solid #392317;
+    display: block;
+    border-radius: 60px;
+    font-size: 28px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+body main div button:hover{
+    background-color: #392317;
+    color: #e3dac8 ;
+}
+.nuestra-miel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.nuestra-miel img{
+    height: 300px;
+    width: 300px;
+    margin: 0;
+}
+body main h1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: 'REM', sans-serif;
+    font-size: 120px;
+    color: #e3dac8;
+    text-align: center;
+}
+
+body main section{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+body main section h1{
+    font-weight: 400;
+}
+body main section img{
+    height: 400px;
+}
+.logo-contacto{
+    width: 650px;
+    display: flex;
+    margin: 0px auto;
+}
+body main form{
+    color: #e3dac8;
+    background-color: #392317;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 18px;
+    opacity: 0.8;
+    width: 650px;
+    margin: 100px auto 0px auto;
+    font-size: 28px;
+    font-weight: 100;
+}
+.enviar{
+    border: none;
+    background-color: #e3dac8;
+    padding: 5px;
+    color: #392317;
+    border-radius: 18px;
+    font-weight: 300;
+    font-family: "Quicksand", sans-serif;
+    font-size: 28px;
+    border-radius: 18px;  
+    height: auto;
+}
+body main form input{
+    height: 30px;
+}
+.nosotros{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+body main div p {
+    color: #e3dac8;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    width: 45%;
+    background-color: #392317;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+body main div iframe{
+    display: flex;
+    justify-content: center;
+}
