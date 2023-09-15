@@ -1,180 +1,294 @@
-.background-index{
-    background-image: url(../assets/background-index.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.background-productos{
-    background-image: url(../assets/background-productos.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.background-contacto{
-    background-image: url(../assets/backgroung-contacto.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.background-nosotros{
-    background-image: url(../assets/background-nosotros.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-body{
-    font-family: "Quicksand", sans-serif;
-    color: #392317;
+.background-index {
+  background-image: url(../assets/background-index.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-body header nav ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    font-size:  20px;;
-    font-weight: 100;
-}
-.navbar-productos a{
-    color: #e3dac8 ;
-}
-body header nav ul a{
-    text-decoration: none;
-    color: #392317 ;
+.background-productos {
+  background-image: url(../assets/background-productos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
+.background-contacto {
+  background-image: url(../assets/backgroung-contacto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-nosotros {
+  background-image: url(../assets/background-nosotros.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #392317;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 100;
+}
+body header nav ul a {
+  text-decoration: none;
+  color: #392317;
+}
 body header nav ul a li {
-    position: relative; 
-    transition: 0.5s; 
-    cursor: default;
+  position: relative;
+  transition: 0.5s;
+  cursor: default;
+}
+
+.navbar-productos a {
+  color: #e3dac8;
 }
 .navbar-productos a li::after {
-background-color: #e3dac8;
+  background-color: #e3dac8;
 }
 
 body header nav ul a li::after {
-    content: ""; 
-    position: absolute; 
-    bottom: -3px; 
-    left: 0; 
-    width: 0; 
-    height: 1px; 
-    background-color: #392317 ;
-    transition: 0.5s; 
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #392317;
+  transition: 0.5s;
 }
 
 body header nav ul a li:hover::after {
-    width: 100%; 
+  width: 100%;
 }
 
-body main div{
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-body main div a{
-    text-decoration: none;
+.logo-index {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-body main div button{
-    padding: 10px 100px 10px 100px ;
-    background-color: transparent;
-    color:#392317;
-    border: 2px solid #392317;
-    display: block;
-    border-radius: 60px;
-    font-size: 28px;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 100;
-    margin-top: 10px;
+body main div {
+  display: flex;
+  justify-content: center;
+}
+body main div a {
+  text-decoration: none;
+  height: 100px;
+}
+body main div a button {
+  padding: 10px 100px 10px 100px;
+  background-color: transparent;
+  color: #392317;
+  border: 2px solid #392317;
+  display: block;
+  border-radius: 60px;
+  font-size: 28px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  margin-top: 10px;
 }
 
-body main div button:hover{
-    background-color: #392317;
-    color: #e3dac8 ;
-}
-.nuestra-miel{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 100px;
-}
-.nuestra-miel img{
-    height: 300px;
-    width: 300px;
-    margin: 0;
-}
-body main h1{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    font-family: 'REM', sans-serif;
-    font-size: 120px;
-    color: #e3dac8;
-    text-align: center;
+body main div button:hover {
+  background-color: #392317;
+  color: #e3dac8;
 }
 
-body main section{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+.nuestra-miel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
 }
-body main section h1{
-    font-weight: 400;
+.nuestra-miel img {
+  height: 300px;
+  width: 300px;
+  margin: 0;
 }
-body main section img{
-    height: 400px;
+
+body main div h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-weight: 700;
+  font-family: "REM", sans-serif;
+  font-size: 120px;
+  color: #e3dac8;
+  text-align: center;
 }
-.logo-contacto{
-    width: 650px;
-    display: flex;
-    margin: 0px auto;
+
+body main section {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
-body main form{
-    color: #e3dac8;
-    background-color: #392317;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    gap: 15px;
-    border-radius: 18px;
-    opacity: 0.8;
-    width: 650px;
-    margin: 100px auto 0px auto;
-    font-size: 28px;
-    font-weight: 100;
+body main section img {
+  height: 400px;
 }
-.enviar{
-    border: none;
-    background-color: #e3dac8;
-    padding: 5px;
-    color: #392317;
-    border-radius: 18px;
-    font-weight: 300;
-    font-family: "Quicksand", sans-serif;
-    font-size: 28px;
-    border-radius: 18px;  
-    height: auto;
+
+.logo-contacto {
+  width: 650px;
+  display: flex;
+  margin: 0px auto;
 }
-body main form input{
-    height: 30px;
+
+body main form {
+  color: #e3dac8;
+  background-color: #392317;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+  border-radius: 18px;
+  opacity: 0.8;
+  width: 650px;
+  margin: 100px auto 0px auto;
+  font-size: 28px;
+  font-weight: 100;
 }
-.nosotros{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+body main form input {
+  height: 30px;
+}
+
+.enviar {
+  border: none;
+  background-color: #e3dac8;
+  padding: 5px;
+  color: #392317;
+  border-radius: 18px;
+  font-weight: 300;
+  font-family: "Quicksand", sans-serif;
+  font-size: 28px;
+  border-radius: 18px;
+  height: auto;
+}
+
+.nosotros {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 body main div p {
-    color: #e3dac8;
-    font-size: 25px;
-    font-weight: 100;
-    text-align: center;
-    width: 45%;
-    background-color: #392317;
-    opacity: 0.8;
-    border-radius: 20px;
-    padding: 20px;
+  color: #e3dac8;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  width: 45%;
+  background-color: #392317;
+  opacity: 0.8;
+  border-radius: 20px;
+  padding: 20px;
 }
 
-body main div iframe{
-    display: flex;
-    justify-content: center;
+body main div iframe {
+  display: flex;
+  justify-content: center;
 }
+
+body footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+body footer div img {
+  width: 30%;
+}
+
+body footer div a {
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: 100;
+  color: green;
+}
+
+@media (max-width: 425px) {
+  body header nav ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  body header nav ul li {
+    font-size: 15px;
+    margin-left: 0;
+  }
+  body main div {
+    display: none;
+  }
+  .logo-contacto {
+    margin-top: 20px;
+    width: 70%;
+  }
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotros p {
+    font-size: 15px;
+    width: 80%;
+  }
+  .nosotros iframe {
+    width: 80%;
+  }
+  body footer div a {
+    font-size: 12px;
+  }
+  body main form {
+    width: 80%;
+    font-size: 15px;
+    margin: 40px auto 0px auto;
+  }
+  .enviar {
+    font-size: 15px;
+  }
+  .nuestra-miel img {
+    margin-top: 40px;
+    height: 160px;
+    width: 160px;
+  }
+  body main div h1 {
+    font-size: 65px;
+    margin-bottom: 0px;
+  }
+  body main section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+  body main section img {
+    width: 90%;
+    height: 70vh;
+  }
+}
+@media (max-width: 768px) {
+  body main section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    gap: 5px;
+  }
+  body main section img {
+    width: 70%;
+    height: 70%;
+  }
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  .nosotros p {
+    width: 80%;
+  }
+  .nosotros iframe {
+    width: 80%;
+    height: 70vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
